@@ -1,7 +1,7 @@
 class CreateTodos < ActiveRecord::Migration
   def change
     create_table :todos do |t|
-      t.interger :user_id
+      t.integer :user_id
       t.string :title
       t.text :description
 
